@@ -19,4 +19,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: org.example.impl.updatesite
-          path: target/org.example.impl.updatesite-*.zip
+          path: org.example.impl.updatesite/target/org.example.impl.updatesite-*.zip
