@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example Plug-In Implementation
+Bundle-SymbolicName: org.example.impl
+Bundle-Version: 0.0.1.qualifier
+Export-Package: org.example.impl
+Automatic-Module-Name: org.example.impl
+Bundle-RequiredExecutionEnvironment: JavaSE-17

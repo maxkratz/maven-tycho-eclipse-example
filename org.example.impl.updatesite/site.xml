@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.example.impl.feature_0.0.1.qualifier.jar" id="org.example.impl.feature" version="0.0.1.qualifier">
+      <category name="org.example.impl.group"/>
+   </feature>
+   <category-def name="org.example.impl.group" label="org.example.impl.group">
+      <description>
+         The category containing the example feature.
+      </description>
+   </category-def>
+</site>
