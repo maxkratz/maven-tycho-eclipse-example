@@ -1,1 +1,1 @@
-# maven-tycho-eclipse-example
+# Maven tycho Eclipse example
