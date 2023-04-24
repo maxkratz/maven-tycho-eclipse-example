@@ -1,1 +1,1 @@
-# Maven tycho Eclipse example
+# Maven Tycho Eclipse example
