@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: org.example.impl.tests
+Bundle-Version: 0.0.1.qualifier
+Require-Bundle: org.junit,
+ junit-jupiter-api,
+ org.example.impl;bundle-version="0.0.1"
+Automatic-Module-Name: org.example.impl.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-17
