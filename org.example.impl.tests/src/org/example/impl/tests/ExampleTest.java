@@ -1,4 +1,4 @@
-package org.example.tests;
+package org.example.impl.tests;
 
 import org.example.impl.ExamplePluginImplementation;
 import org.junit.jupiter.api.Assertions;

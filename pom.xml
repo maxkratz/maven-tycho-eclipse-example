@@ -18,7 +18,7 @@
     <module>org.example.impl</module>
     <module>org.example.impl.feature</module>
     <module>org.example.impl.updatesite</module>
-    <module>org.example.tests</module>
+    <module>org.example.impl.tests</module>
   </modules>
 
   <repositories>

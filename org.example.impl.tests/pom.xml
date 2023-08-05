@@ -10,7 +10,7 @@
     </parent>
 
 	<groupId>org.example.impl.group</groupId>
-	<artifactId>org.example.tests</artifactId>
+	<artifactId>org.example.impl.tests</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>eclipse-test-plugin</packaging>
 
