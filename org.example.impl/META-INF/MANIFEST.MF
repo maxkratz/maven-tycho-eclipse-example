@@ -4,5 +4,6 @@ Bundle-Name: Example Plug-In Implementation
 Bundle-SymbolicName: org.example.impl
 Bundle-Version: 0.0.1.qualifier
 Export-Package: org.example.impl
+Require-Bundle: org.example.impl.dependencies
 Automatic-Module-Name: org.example.impl
 Bundle-RequiredExecutionEnvironment: JavaSE-17

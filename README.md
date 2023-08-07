@@ -8,14 +8,15 @@ It can be used to create Eclipse update sites from various projects and features
 
 ## Structure
 
-| Name                                                        | Type                        | Purpose                                                                                         |
-| ----------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------- |
-| [org.example.impl](org.example.impl/)                       | Eclipse (plug-in) project   | Contains the implementation of a feature or an Eclipse plug-in (in this case an empty example). |
-| [org.example.impl.feature](org.example.impl.feature/)       | Eclipse Feature project     | Contains the necessary information for the feature to export.                                   |
-| [org.example.impl.updatesite](org.example.impl.updatesite/) | Eclipse Update Site project | Contains the update site configuration (to include the feature above).                          |
-| [org.example.impl.tests](org.example.impl.tests/)           | Eclipse (plug-in) project   | Contains all tests and test-related content.                                                    |
-| [ci.yml](.github/workflows/ci.yml)                          | File                        | Example GitHub Actions configuration to build and push the update site.                         |
-| [pom.xml](pom.xml)                                          | File                        | Maven configuration file that contains the parent group/porject.                                |
+| Name                                                           | Type                        | Purpose                                                                                         |
+| -------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------- |
+| [org.example.impl](org.example.impl/)                          | Eclipse (plug-in) project   | Contains the implementation of a feature or an Eclipse plug-in (in this case an empty example). |
+| [org.example.impl.feature](org.example.impl.feature/)          | Eclipse Feature project     | Contains the necessary information for the feature to export.                                   |
+| [org.example.impl.updatesite](org.example.impl.updatesite/)    | Eclipse Update Site project | Contains the update site configuration (to include the feature above).                          |
+| [org.example.impl.dependencies](org.example.impl.dependencies) | Eclipse (plug-in) project   | Contains all necessary dependencies (JARs).                                                     |
+| [org.example.impl.tests](org.example.impl.tests/)              | Eclipse (plug-in) project   | Contains all tests and test-related content.                                                    |
+| [ci.yml](.github/workflows/ci.yml)                             | File                        | Example GitHub Actions configuration to build and push the update site.                         |
+| [pom.xml](pom.xml)                                             | File                        | Maven configuration file that contains the parent group/porject.                                |
 
 
 ## How to build
