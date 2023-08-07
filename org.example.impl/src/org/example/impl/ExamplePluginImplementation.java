@@ -9,5 +9,9 @@ public class ExamplePluginImplementation {
 	public int addTwoNumbers(final int a, final int b) {
 		return a + b;
 	}
+	
+	public void dummy() {
+		final char c = org.apache.commons.io.FilenameUtils.EXTENSION_SEPARATOR;
+	}
 
 }

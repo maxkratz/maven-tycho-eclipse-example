@@ -18,6 +18,7 @@
     <module>org.example.impl</module>
     <module>org.example.impl.feature</module>
     <module>org.example.impl.updatesite</module>
+    <module>org.example.impl.dependencies</module>
     <module>org.example.impl.tests</module>
   </modules>
 
