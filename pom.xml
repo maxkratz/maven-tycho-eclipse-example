@@ -12,6 +12,7 @@
   <properties>
     <tycho.version>4.0.2</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.resource.version>3.3.1</maven.resource.version>
   </properties>
 
   <modules>
@@ -65,7 +66,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>${maven.resource.version}</version>
         </plugin>
     </plugins>
   </build>
