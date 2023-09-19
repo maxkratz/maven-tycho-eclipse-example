@@ -10,8 +10,9 @@
   <name>Example plug-in for Eclipse using Maven and Tycho</name>
 
   <properties>
-    <tycho.version>3.0.4</tycho.version>
+    <tycho.version>4.0.2</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.resource.version>3.3.1</maven.resource.version>
   </properties>
 
   <modules>
@@ -24,9 +25,9 @@
 
   <repositories>
     <repository>
-      <id>eclipse-2023-03</id>
+      <id>eclipse-2023-09</id>
       <layout>p2</layout>
-      <url>https://download.eclipse.org/releases/2023-03</url>
+      <url>https://download.eclipse.org/releases/2023-09</url>
     </repository>
   </repositories>
 
@@ -65,7 +66,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>${maven.resource.version}</version>
         </plugin>
     </plugins>
   </build>
