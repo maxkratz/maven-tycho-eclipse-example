@@ -10,7 +10,7 @@
   <name>Example plug-in for Eclipse using Maven and Tycho</name>
 
   <properties>
-    <tycho.version>3.0.4</tycho.version>
+    <tycho.version>4.0.2</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
