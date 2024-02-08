@@ -14,7 +14,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Set up Maven
-        uses: stCarolas/setup-maven@v4.5
+        uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.6
       - name: Build with Maven
@@ -36,7 +36,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Set up Maven
-        uses: stCarolas/setup-maven@v4.5
+        uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.6
       - name: Create JavaDoc with Maven
@@ -58,7 +58,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Set up Maven
-        uses: stCarolas/setup-maven@v4.5
+        uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.6
       - name: Test with Maven
