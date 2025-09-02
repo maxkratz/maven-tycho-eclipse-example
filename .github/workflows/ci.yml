@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: [ubuntu-22.04]
+    runs-on: [ubuntu-24.04]
 
     steps:
       - uses: actions/checkout@v5
@@ -26,7 +26,7 @@ jobs:
           path: org.example.impl.updatesite/target/org.example.impl.updatesite-*.zip
 
   doc:
-    runs-on: [ubuntu-22.04]
+    runs-on: [ubuntu-24.04]
     needs: [build]
     steps:
       - uses: actions/checkout@v5
@@ -48,7 +48,7 @@ jobs:
           path: org.example.impl/target/site
 
   test:
-    runs-on: [ubuntu-22.04]
+    runs-on: [ubuntu-24.04]
     needs: [build]
     steps:
       - uses: actions/checkout@v5
