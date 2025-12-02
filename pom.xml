@@ -12,7 +12,7 @@
   <properties>
     <tycho.version>5.0.1</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.resource.version>3.3.1</maven.resource.version>
+    <maven.resource.version>3.4.0</maven.resource.version>
   </properties>
 
   <modules>
