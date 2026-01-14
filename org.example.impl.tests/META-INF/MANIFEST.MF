@@ -3,8 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Tests
 Bundle-SymbolicName: org.example.impl.tests
 Bundle-Version: 0.0.1.qualifier
-Require-Bundle: org.junit,
- junit-jupiter-api,
+Require-Bundle: junit-jupiter-api;bundle-version="[0.0.0,6.0.0)",
  org.example.impl;bundle-version="0.0.1"
 Automatic-Module-Name: org.example.impl.tests
 Bundle-RequiredExecutionEnvironment: JavaSE-17
