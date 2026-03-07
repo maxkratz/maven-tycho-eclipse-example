@@ -21,6 +21,8 @@ It can be used to create Eclipse update sites from various projects and features
 
 ## How to build
 
+Since this project uses [tycho](https://github.com/eclipse-tycho/tycho) >=v5.0.0, you [need Java 21 to compile it](https://github.com/eclipse-tycho/tycho/blob/tycho-5.0.0/RELEASE_NOTES.md#java-21-required-to-run-tycho-build).
+
 - Build the project + feature + update site:  
   `$ mvn clean package`
 - Build + install the project to the local `.m2/` folder:  
