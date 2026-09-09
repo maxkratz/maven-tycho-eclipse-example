@@ -20,4 +20,4 @@ Export-Package: org.apache.commons.io;version="2.13.0",
 Automatic-Module-Name: org.example.impl.dependencies
 Bundle-ClassPath: lib/commons-io/commons-io-2.13.0.jar,
  lib/commons-io/commons-io-2.13.0-javadoc.jar
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
