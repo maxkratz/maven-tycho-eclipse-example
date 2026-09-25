@@ -18,7 +18,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>${maven.resource.version}</version>
+        <version>3.5.0</version>
         <executions>
           <execution>
             <id>copy-index.html</id>
@@ -43,7 +43,7 @@
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-p2-director-plugin</artifactId>
-        <version>${tycho.version}</version>
+        <version>5.0.4</version>
         <configuration>
           <formats>
             <win32>zip</win32>
@@ -68,5 +68,5 @@
 			</plugin>
 		</plugins>
 	</build>
-  
+
 </project>
