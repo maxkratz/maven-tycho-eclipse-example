@@ -10,9 +10,7 @@
   <name>Example plug-in for Eclipse using Maven and Tycho</name>
 
   <properties>
-    <tycho.version>5.0.4</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.resource.version>3.5.0</maven.resource.version>
   </properties>
 
   <modules>
@@ -36,13 +34,13 @@
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
-        <version>${tycho.version}</version>
+        <version>5.0.4</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>target-platform-configuration</artifactId>
-        <version>${tycho.version}</version>
+        <version>5.0.4</version>
         <configuration>
           <environments>
             <environment>
@@ -66,7 +64,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>${maven.resource.version}</version>
+          <version>3.5.0</version>
         </plugin>
     </plugins>
   </build>
