@@ -28,5 +28,13 @@
 			</plugin>
 		</plugins>
 	</reporting>
+	
+  <dependencies>
+	<dependency>
+	  <groupId>commons-io</groupId>
+	  <artifactId>commons-io</artifactId>
+	  <version>2.22.0</version>
+	</dependency>
+  </dependencies>	
 
 </project>
