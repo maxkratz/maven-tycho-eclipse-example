@@ -7,3 +7,4 @@ Export-Package: org.example.impl
 Require-Bundle: org.example.impl.dependencies
 Automatic-Module-Name: org.example.impl
 Bundle-RequiredExecutionEnvironment: JavaSE-21
+Import-Package: org.apache.commons.io;version="[2.22.0,3.0.0)"
